@@ -1,5 +1,5 @@
 public class Lovisa {
-    public void helloLovisa() {
+    public void hello() {
 
     System.out.println("Lovisa");
     }
