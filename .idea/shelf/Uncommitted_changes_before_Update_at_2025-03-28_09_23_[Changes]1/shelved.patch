@@ -1,0 +1,23 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n    }\r\n    //test\r\n    //TEST\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 6dc84b8652fddb45e524c7ab02ff7824d27053f8)
++++ b/src/Main.java	(date 1743150077470)
+@@ -1,7 +1,8 @@
+ public class Main {
+     public static void main(String[] args) {
+-        System.out.println("Hello world!");
++
++        EriksKlass eriksKlass = new EriksKlass();
++
++        eriksKlass.printErik();
+     }
+-    //test
+-    //TEST
+ }
+\ No newline at end of file
