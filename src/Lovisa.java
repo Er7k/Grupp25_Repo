@@ -1,5 +1,5 @@
 public class Lovisa {
-    public static void main(String[] args) {
+    public void helloLovisa() {
 
     System.out.println("Lovisa");
     }
